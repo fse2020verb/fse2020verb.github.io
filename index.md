@@ -28,7 +28,7 @@ on answering the following research questions:
 
 ##### RQ3: What _p\_patterns_ are used in the _f\_sentences_ from each _f\_category_?
 
-1. [phrase_patterns_belong_to_categories](https://github.com/fse2020verb/fse2020verb.github.io/blob/master/RQ3/p_pattern_for_category.json) shows all _p\_patterns_ used in each _f\_category_.
+1. [p_pattern_for_category.txt](https://github.com/fse2020verb/fse2020verb.github.io/blob/master/RQ3/p_pattern_for_category.txt) shows all _p\_patterns_ used in each _f\_category_.
 
 
 ##### Evaluation
