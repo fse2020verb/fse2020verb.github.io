@@ -1,696 +1,696 @@
 cancel/deregister/undo/deny/unset/unschedule/unregister/unbind/uninitialize/unload/deselect/unlock/unblock
-V NP
-V NP PP(from){.source}
-V NP PP(in/on){.location}
-V NP PP(with){.instrument}
-V NP PP(for){.beneficiary}
-V NP PP(from){.source} PP(to){.goal}
-V NP PP(as){.goal} PP(for){.beneficiary}
+V {patient}
+V {patient} from {source}
+V {patient} in/on {location}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} from {source} to {goal}
+V {patient} as {goal} for {beneficiary}
 
 test/tell/determine/check/retrieve/ascertain/return/control/indicate/query/report/validate/get/invalidate/verify/find/identify/track/detect/decide
 V S
-V NP
-V PP(for){.theme}
-V NP if/whether S
-V NP PP(for){.theme}
-V NP PP(in){.location}
+V {patient}
+V for {theme}
+V {patient} if/whether S
+V {patient} for {theme}
+V {patient} in {location}
 V whether/if/that/when S
-V PP(for){.theme} PP(between/on){.patient}
+V for {theme} between/on {patient}
 
 update/modify/fill/edit/change/rename/populate/adjust/flush/trim/adapt/reconcile/resize
-V NP
+V {patient}
 V whether S
-V PP(to){.goal}
-V NP PP(by) S_ING
-V NP PP(to){.goal}
-V NP PP(as){.theme}
-V NP PP(from){.source}
-V NP PP(with){.instrument}
-V NP PP(for){.beneficiary}
-V NP PP(in/within){.location}
-V NP PP(with){.instrument} PP(in){.location}
-V NP PP(with){.instrument} PP(from){.source}
-V NP PP(for){.beneficiary} PP(in){.location}
-V NP PP(with){.instrument} PP(for){.beneficiary}
-V NP PP(with){.instrument} PP(from){.source} PP(to){.goal}
+V to {goal}
+V {patient} by S_ING
+V {patient} to {goal}
+V {patient} as {theme}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} in/within {location}
+V {patient} with {instrument} in {location}
+V {patient} with {instrument} from {source}
+V {patient} for {beneficiary} in {location}
+V {patient} with {instrument} for {beneficiary}
+V {patient} with {instrument} from {source} to {goal}
 
 set/control/describe/define/specify/tell/give/assign/determine/indicate/configure/schedule/declare/reassign/clamp/put/designate
 V S
-V NP
-V NP S_INF
-V NP when S
-V PP(to){.goal}
-V NP PP(by) S_ING
-V NP if/whether S
-V NP PP(for) S_ING
-V NP PP(about){.topic}
-V PP(for){.beneficiary}
-V PP(on/in/at){.location}
-V NP PP(for){.beneficiary}
-V NP PP(as/to/into){.goal}
-V NP PP(between){.attribute}
+V {patient}
+V {patient} S_INF
+V {patient} when S
+V to {goal}
+V {patient} by S_ING
+V {patient} if/whether S
+V {patient} for S_ING
+V {patient} about {topic}
+V for {beneficiary}
+V on/in/at {location}
+V {patient} for {beneficiary}
+V {patient} as/to/into {goal}
+V {patient} between {attribute}
 V if/whether/that/when/where S
-V NP PP(with/from){.instrument}
-V NP PP(on/in/at/within){.location}
-V NP PP(as/to){.goal} PP(for){.beneficiary}
-V NP PP(for){.beneficiary} PP(as/to){.goal}
-V NP PP(with){.instrument} PP(about){.topic}
-V NP PP(with/from){.instrument} PP(as/to){.goal}
-V NP PP(for){.beneficiary} PP(on/in/at){.location}
-V NP PP(as/to/into){.goal} PP(on/in/at){.location}
-V NP PP(for){.beneficiary} PP(with/from){.instrument}
-V NP PP(on/in/at){.location} PP(with/from){.instrument}
+V {patient} with/from {instrument}
+V {patient} on/in/at/within {location}
+V {patient} as/to {goal} for {beneficiary}
+V {patient} for {beneficiary} as/to {goal}
+V {patient} with {instrument} about {topic}
+V {patient} with/from {instrument} as/to {goal}
+V {patient} for {beneficiary} on/in/at {location}
+V {patient} as/to/into {goal} on/in/at {location}
+V {patient} for {beneficiary} with/from {instrument}
+V {patient} on/in/at {location} with/from {instrument}
 
 create/build/produce/construct/generate/establish/make/obtain/reconstitute/compose/instantiate/implement/get/retrieve/return/install/set up
-V NP
-V NP PP(by) S_ING
-V NP PP(for) S_ING
-V PP(from){.material}
-V NP PP(for){.beneficiary}
-V NP PP(in/on/within/at){.location}
-V NP PP(from/with/by/over/out of){.material}
-V NP PP(from){.source} PP(with){.instrument}
-V NP{.material} PP(into/to/as/onto){.product}
-V NP PP(for){.beneficiary} PP(with){.material}
-V NP PP(for){.beneficiary} PP(from/with/by/over/out of){.material}
-V NP PP(from/with/by/over/out of){.material} PP(in/on/within){.location}
+V {patient}
+V {patient} by S_ING
+V {patient} for S_ING
+V from {material}
+V {patient} for {beneficiary}
+V {patient} in/on/within/at {location}
+V {patient} from/with/by/over/out of {material}
+V {patient} from {source} with {instrument}
+V {material} into/to/as/onto {product}
+V {patient} for {beneficiary} with {material}
+V {patient} for {beneficiary} from/with/by/over/out of {material}
+V {patient} from/with/by/over/out of {material} in/on/within {location}
 
 draw/render/paint/redraw/repaint
-V NP
-V NP if S
-V PP(to){.goal}
-V NP PP(by) S_ING
-V PP(in){.location}
-V NP PP(within){.time}
-V NP PP(with){.instrument}
-V NP PP(into/to/as){.goal}
-V NP PP(for){.beneficiary}
-V NP PP(at/on/in){.location}
-V NP PP(for){.beneficiary} PP(with){.instrument}
+V {patient}
+V {patient} if S
+V to {goal}
+V {patient} by S_ING
+V in {location}
+V {patient} within {time}
+V {patient} with {instrument}
+V {patient} into/to/as {goal}
+V {patient} for {beneficiary}
+V {patient} at/on/in {location}
+V {patient} for {beneficiary} with {instrument}
 
 handle/process
-V NP
-V NP PP(by) S_ING
-V NP PP(for) S_ING
-V NP PP(from){.source}
-V NP PP(by){.instrument}
-V NP PP(on/in){.location}
-V NP{.source} PP(as/into){.goal}
+V {patient}
+V {patient} by S_ING
+V {patient} for S_ING
+V {patient} from {source}
+V {patient} by {instrument}
+V {patient} on/in {location}
+V {source} as/into {goal}
 
 return/get/obtain/fetch/acquire/determine/take/capture/retrieve/describe/provide/represent/reclaim/receive/claim/extract
 V S
-V NP
-V NP if S
-V PP(to){.goal}
-V NP PP(for) S_ING
-V PP(in){.location}
-V NP PP(as/to){.goal}
+V {patient}
+V {patient} if S
+V to {goal}
+V {patient} for S_ING
+V in {location}
+V {patient} as/to {goal}
 V why/where/whether S
-V NP PP(about){.theme}
-V NP PP(for){.beneficiary}
-V NP PP(from/over){.source}
-V NP PP(with/via/by){.instrument}
-V NP PP(at/in/on/within){.location}
-V NP PP(as/to){.goal} PP(from){.source}
-V NP PP(for){.beneficiary} PP(at){.time}
-V NP PP(as/to){.goal} PP(for){.beneficiary}
-V NP PP(from/over){.source} PP(to/as){.goal}
-V NP PP(for){.beneficiary} PP(with){.instrument}
-V NP PP(from/over){.source} PP(for){.beneficiary}
-V NP PP(from/over){.source} PP(with){.instrument}
-V NP PP(as/to){.goal} PP(at/in/on/within){.location}
-V NP PP(for){.beneficiary} PP(at/in/on/within){.location}
-V NP PP(from/over){.source} PP(at/in/on/within){.location}
+V {patient} about {theme}
+V {patient} for {beneficiary}
+V {patient} from/over {source}
+V {patient} with/via/by {instrument}
+V {patient} at/in/on/within {location}
+V {patient} as/to {goal} from {source}
+V {patient} for {beneficiary} at {time}
+V {patient} as/to {goal} for {beneficiary}
+V {patient} from/over {source} to/as {goal}
+V {patient} for {beneficiary} with {instrument}
+V {patient} from/over {source} for {beneficiary}
+V {patient} from/over {source} with {instrument}
+V {patient} as/to {goal} at/in/on/within {location}
+V {patient} for {beneficiary} at/in/on/within {location}
+V {patient} from/over {source} at/in/on/within {location}
 
 perform/execute/run/call/invoke/enforce/fire/trigger/indicate/occur
-V NP
+V {patient}
 V when/that S
-V NP when/that S
-V NP PP(by) S_ING
-V NP PP(over){.theme}
-V NP PP(from){.source}
-V NP PP(around){.topic}
-V NP PP(to){.co-patient}
-V NP PP(on/in){.location}
-V NP PP(with){.instrument}
-V NP PP(for){.beneficiary}
-V NP PP(as/to){.goal} PP(on/in){.location}
-V NP PP(on/in){.location} PP(with){.instrument}
-V NP PP(on/in){.location} PP(for){.beneficiary}
+V {patient} when/that S
+V {patient} by S_ING
+V {patient} over {theme}
+V {patient} from {source}
+V {patient} around {topic}
+V {patient} to {co-patient}
+V {patient} on/in {location}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} as/to {goal} on/in {location}
+V {patient} on/in {location} with {instrument}
+V {patient} on/in {location} for {beneficiary}
 
 stop/quit/terminate/interrupt/end/crash/intercept/abort/disconnect/shutdown/pause/finalize/freeze/block
-V NP
+V {patient}
 V S_ING
-V NP if/when S
-V NP PP(by) S_ING
-V NP PP(for) S_ING
-V PP(from){.source}
-V NP PP(from){.source}
-V NP PP(for){.beneficiary}
-V NP PP(in/on/at){.location}
+V {patient} if/when S
+V {patient} by S_ING
+V {patient} for S_ING
+V from {source}
+V {patient} from {source}
+V {patient} for {beneficiary}
+V {patient} in/on/at {location}
 
 parse/resolve/unwrap/analyze/uncompress/decode/flatten/unmarshal
-V NP
-V NP PP(by) S_ING
-V NP PP(at/on){.location}
-V NP PP(as/to/into){.goal}
-V NP PP(from/against/out of){.source}
-V NP PP(for){.beneficiary} PP(as){.goal}
-V NP PP(from/against/out of){.source} PP(as/to/into){.goal}
+V {patient}
+V {patient} by S_ING
+V {patient} at/on {location}
+V {patient} as/to/into {goal}
+V {patient} from/against/out of {source}
+V {patient} for {beneficiary} as {goal}
+V {patient} from/against/out of {source} as/to/into {goal}
 
 bind/attach/rebind/reattach
-V NP
-V NP PP(for) S_ING
-V NP PP(in){.location}
-V NP PP(to){.co-patient}
-V NP PP(in){.instrument}
-V NP PP(to){.co-patient} PP(for){.beneficiary}
+V {patient}
+V {patient} for S_ING
+V {patient} in {location}
+V {patient} to {co-patient}
+V {patient} in {instrument}
+V {patient} to {co-patient} for {beneficiary}
 
 open/turn on
-V NP
-V NP PP(for) S_ING
-V NP PP(on){.location}
-V NP PP(with){.instrument}
-V NP PP(for/to){.beneficiary}
+V {patient}
+V {patient} for S_ING
+V {patient} on {location}
+V {patient} with {instrument}
+V {patient} for/to {beneficiary}
 
 assert
-V NP
+V {patient}
 V that S
 
 query/find/locate/determine/retrieve/visit/look/search/discover/seek/look up
-V NP
+V {patient}
 V if/whether S
-V PP(to) NP
-V PP(out) if S
-V PP(for){.theme}
-V NP PP(for){.theme}
-V NP PP(from){.source}
-V NP PP(about){.topic}
-V NP PP(from){.source}
-V NP PP(on/in/at){.location}
-V NP PP(by/with){.instrument}
-V PP(for){.theme} PP(in){.location}
-V NP PP(as){.goal} PP(from){.source}
-V NP PP(as){.goal} PP(in){.location}
-V NP PP(in){.location} PP(for){.theme}
-V NP PP(on/in/at){.location} PP(by/with){.instrument}
+V to) {patient}
+V out) if S
+V for {theme}
+V {patient} for {theme}
+V {patient} from {source}
+V {patient} about {topic}
+V {patient} from {source}
+V {patient} on/in/at {location}
+V {patient} by/with {instrument}
+V for {theme} in {location}
+V {patient} as {goal} from {source}
+V {patient} as {goal} in {location}
+V {patient} in {location} for {theme}
+V {patient} on/in/at {location} by/with {instrument}
 
 copy/clone
-V NP
-V NP PP(to/into){.goal}
-V PP(to/into){.goal} PP(in){.location}
-V PP(from/at){.source} PP(to/into){.goal}
-V PP(to/into){.goal} PP(in/at){.location}
-V NP PP(in/at){.location} PP(into/to){.goal}
-V NP PP(to/into){.goal} PP(from/at){.source}
-V NP PP(for){.beneficiary} PP(to/into){.goal}
-V NP PP(for){.beneficiary} PP(from/at){.source}
+V {patient}
+V {patient} to/into {goal}
+V to/into {goal} in {location}
+V from/at {source} to/into {goal}
+V to/into {goal} in/at {location}
+V {patient} in/at {location} into/to {goal}
+V {patient} to/into {goal} from/at {source}
+V {patient} for {beneficiary} to/into {goal}
+V {patient} for {beneficiary} from/at {source}
 
 make/cause/instruct
-V NP
-V NP ADJ
-V NP ADJ PP(by) S_ING
-V NP PP(for){.beneficiary}
-V NP PP(at){.location} ADJ
-V NP PP(in/at/on){.location}
-V NP PP(with/by){.instrument}
-V NP ADJ PP(for){.beneficiary}
-V NP PP(from){.source} PP(to){.goal}
+V {patient}
+V {patient} ADJ
+V {patient} ADJ by S_ING
+V {patient} for {beneficiary}
+V {patient} at {location} ADJ
+V {patient} in/at/on {location}
+V {patient} with/by {instrument}
+V {patient} ADJ for {beneficiary}
+V {patient} from {source} to {goal}
 
 initialize/reinitialize/prepare/refresh/reset/initiate/reposition
-V NP
-V NP PP(by) S_ING
-V NP PP(as/to/for){.goal}
-V NP PP(from){.source}
-V NP PP(with){.instrument}
-V NP PP(in/on/at){.location}
-V NP PP(by/with){.instrument}
-V NP PP(as/to/for){.goal} PP(from){.source}
-V NP PP(with){.instrument} PP(about){.theme}
-V NP PP(as/to/for){.goal} PP(in/on/at){.location}
+V {patient}
+V {patient} by S_ING
+V {patient} as/to/for {goal}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} in/on/at {location}
+V {patient} by/with {instrument}
+V {patient} as/to/for {goal} from {source}
+V {patient} with {instrument} about {theme}
+V {patient} as/to/for {goal} in/on/at {location}
 
 format/return
-V NP
-V NP PP(from){.source}
-V NP PP(with){.instrument}
-V NP PP(for){.beneficiary}
-V NP PP(to/into/in){.goal}
+V {patient}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} to/into/in {goal}
 
 send/pass/give/dispatch/post/issue/propagate/forward/broadcast/transmit/emit/notify/signal
-V NP
+V {patient}
 V that S
-V NP that S
-V NP PP(by) S_ING
-V NP PP(to){.goal}
-V NP PP(from){.source}
-V NP PP(for){.beneficiary}
-V NP PP(down/on){.location}
-V NP PP(through){.instrument}
-V NP PP(to){.goal} PP(by) S_ING
-V NP PP(from){.source} PP(to){.goal}
-V NP PP(to){.goal} PP(in/on){.location}
+V {patient} that S
+V {patient} by S_ING
+V {patient} to {goal}
+V {patient} from {source}
+V {patient} for {beneficiary}
+V {patient} down/on {location}
+V {patient} through {instrument}
+V {patient} to {goal} by S_ING
+V {patient} from {source} to {goal}
+V {patient} to {goal} in/on {location}
 
 close/end/release/free/finish/dismiss/deactivate/disable/turn off
-V NP
+V {patient}
 V S_ING
-V NP if S
-V PP(in){.location}
-V NP PP(about){.topic}
-V NP PP(to){.co-patient}
-V NP PP(with){.attribute}
-V NP PP(for){.beneficiary}
-V NP PP(on/in/within){.location}
+V {patient} if S
+V in {location}
+V {patient} about {topic}
+V {patient} to {co-patient}
+V {patient} with {attribute}
+V {patient} for {beneficiary}
+V {patient} on/in/within {location}
 
 choose/select
-V NP
-V NP PP(from){.source}
-V NP PP(at/in){.location}
-V NP PP(for){.beneficiary}
-V NP PP(as){.goal} PP(at/in){.location}
+V {patient}
+V {patient} from {source}
+V {patient} at/in {location}
+V {patient} for {beneficiary}
+V {patient} as {goal} at/in {location}
 
 compute/calculate/determine/evaluate/solve/scale/measure/recalculate/multiply/count/figure/subtract/increase/estimate/return/increment/cumulate/sum
-V NP
+V {patient}
 V whether S
-V PP(by){.instrument}
-V NP PP(in){.location}
-V NP PP(into/to){.goal}
-V NP PP(for){.beneficiary}
-V NP PP(for){.beneficiary} PP(by) S_ING
-V NP PP(from/within/on/between/with){.source}
-V NP PP(for){.beneficiary} PP(as/into/to){.goal}
+V by {instrument}
+V {patient} in {location}
+V {patient} into/to {goal}
+V {patient} for {beneficiary}
+V {patient} for {beneficiary} by S_ING
+V {patient} from/within/on/between/with {source}
+V {patient} for {beneficiary} as/into/to {goal}
 
 connect/associate/join/combine/concatenate/merge/concat/add/group
-V NP
-V PP(to){.theme}
-V NP PP(to/into){.goal}
-V NP PP(with){.instrument}
-V NP PP(within){.location}
-V NP PP(in){.location} PP(into){.goal}
-V NP PP(to/into){.goal} PP(on/in){.location}
-V NP PP(to/into){.goal} PP(for){.beneficiary}
-V NP PP(to/into){.goal} PP(with){.instrument}
-V NP PP(with){.instrument} PP(on/in){.location}
+V {patient}
+V to {theme}
+V {patient} to/into {goal}
+V {patient} with {instrument}
+V {patient} within {location}
+V {patient} in {location} into {goal}
+V {patient} to/into {goal} on/in {location}
+V {patient} to/into {goal} for {beneficiary}
+V {patient} to/into {goal} with {instrument}
+V {patient} with {instrument} on/in {location}
 
 visit/rescan/scan/walk/iterate/access
-V NP
-V PP(to){.theme}
-V NP PP(by) S_ING
-V NP PP(as){.goal}
-V PP(over){.patient}
-V NP PP(in){.location}
-V PP(through){.instrument} PP(in){.location}
-V NP PP(through){.instrument} PP(in){.location}
+V {patient}
+V to {theme}
+V {patient} by S_ING
+V {patient} as {goal}
+V over {patient}
+V {patient} in {location}
+V through {instrument} in {location}
+V {patient} through {instrument} in {location}
 
 apply/reapply/accept/re-apply
-V NP
-V NP PP(to/on/over){.goal}
+V {patient}
+V {patient} to/on/over {goal}
 
 report/notify/tell/indicate/prompt
-V NP
+V {patient}
 V that S
-V NP S_INF
-V NP PP(to){.goal}
-V PP(from){.source}
-V NP PP(to){.co-theme}
-V NP PP(about){.topic}
-V NP PP(in){.location}
-V NP that/when/whether S
-V NP PP(for){.beneficiary}
-V PP(to){.co-theme} that S
-V NP PP(for){.beneficiary} PP(in){.location}
+V {patient} S_INF
+V {patient} to {goal}
+V from {source}
+V {patient} to {co-theme}
+V {patient} about {topic}
+V {patient} in {location}
+V {patient} that/when/whether S
+V {patient} for {beneficiary}
+V to {co-theme} that S
+V {patient} for {beneficiary} in {location}
 
 compare/return
-V NP
-V NP if S
-V NP PP(for){.theme}
-V NP PP(against/with/to){.co-patient}
-V NP PP(for){.theme} PP(against/with/to){.co-patient}
-V NP PP(against/with/to){.co-patient} PP(in){.location}
+V {patient}
+V {patient} if S
+V {patient} for {theme}
+V {patient} against/with/to {co-patient}
+V {patient} for {theme} against/with/to {co-patient}
+V {patient} against/with/to {co-patient} in {location}
 
 write/record/log/print/output
-V NP
+V {patient}
 V that S
-V PP(to){.goal}
-V NP PP(about){.topic}
-V NP PP(from){.source}
-V NP PP(with){.instrument}
-V NP PP(at/on/in){.location}
-V NP PP(as/to/into/onto){.goal}
-V NP PP(from){.source} PP(for){.beneficiary}
-V NP PP(as/into/to){.goal} PP(via){.instrument}
-V NP PP(from){.source} PP(as/to/into/onto){.goal}
-V NP PP(as/into/to){.goal} PP(at/in/on){.location}
-V NP PP(as/to/into/onto){.goal} PP(for){.beneficiary}
-V NP PP(from){.source} PP(for){.beneficiary} PP(to){.goal}
+V to {goal}
+V {patient} about {topic}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} at/on/in {location}
+V {patient} as/to/into/onto {goal}
+V {patient} from {source} for {beneficiary}
+V {patient} as/into/to {goal} via {instrument}
+V {patient} from {source} as/to/into/onto {goal}
+V {patient} as/into/to {goal} at/in/on {location}
+V {patient} as/to/into/onto {goal} for {beneficiary}
+V {patient} from {source} for {beneficiary} to {goal}
 
 append/put/add/insert/push/interpolate/place/install/register/queue/register/enqueue
-V NP
+V {patient}
 V S_INF
-V NP S_INF
-V NP PP(from){.source}
-V PP(for){.beneficiary}
-V NP PP(for){.beneficiary}
-V NP PP(by) S_ING
-V NP PP(in/on/at){.location}
-V NP PP(with/by){.instrument}
-V NP PP(between){.co-patient}
-V NP PP(in/to/into/onto/as){.goal}
-V NP PP(to){.co-theme} PP(into){.goal}
-V NP PP(from){.source} PP(on){.location}
-V NP PP(in){.location} PP(to/into){.goal}
-V NP PP(for){.beneficiary} PP(in){.location}
-V NP PP(in/to/into/onto/as){.goal} PP(by) S_ING
-V NP PP(from){.source} PP(in/to/into/onto){.goal}
-V NP PP(for){.beneficiary} PP(by/with){.instrument}
-V NP PP(in/on/at){.location} PP(into/as/onto/to){.goal}
-V NP PP(in/to/into/onto/as){.goal} PP(for){.beneficiary}
-V NP PP(with/by){.instrument} PP(into/as/onto/to){.goal}
-V NP PP(for){.beneficiary} PP(in/to/into/onto/as){.goal}
-V NP PP(in/to/into/onto/as){.goal} PP(at/in/on){.location}
-V NP PP(in/to/into/onto/as){.goal} PP(by/with){.instrument}
+V {patient} S_INF
+V {patient} from {source}
+V for {beneficiary}
+V {patient} for {beneficiary}
+V {patient} by S_ING
+V {patient} in/on/at {location}
+V {patient} with/by {instrument}
+V {patient} between {co-patient}
+V {patient} in/to/into/onto/as {goal}
+V {patient} to {co-theme} into {goal}
+V {patient} from {source} on {location}
+V {patient} in {location} to/into {goal}
+V {patient} for {beneficiary} in {location}
+V {patient} in/to/into/onto/as {goal} by S_ING
+V {patient} from {source} in/to/into/onto {goal}
+V {patient} for {beneficiary} by/with {instrument}
+V {patient} in/on/at {location} into/as/onto/to {goal}
+V {patient} in/to/into/onto/as {goal} for {beneficiary}
+V {patient} with/by {instrument} into/as/onto/to {goal}
+V {patient} for {beneficiary} in/to/into/onto/as {goal}
+V {patient} in/to/into/onto/as {goal} at/in/on {location}
+V {patient} in/to/into/onto/as {goal} by/with {instrument}
 
 start/wake/launch/happen/begin/enable/re-enable
-V NP
+V {patient}
 V S_ING
-V NP PP(to){.goal}
-V NP PP(about){.topic}
-V NP PP(from){.source}
-V NP PP(with){.instrument}
-V NP PP(for){.beneficiary}
-V NP PP(within){.co-patient}
-V NP PP(in/on/into){.co-patient}
-V NP PP(to){.goal} PP(from){.source}
-V NP PP(for){.beneficiary} PP(with){.instrument}
+V {patient} to {goal}
+V {patient} about {topic}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} within {co-patient}
+V {patient} in/on/into {co-patient}
+V {patient} to {goal} from {source}
+V {patient} for {beneficiary} with {instrument}
 
 replace
-V NP
-V NP if S
-V NP PP(in){.location}
-V NP PP(with){.instrument}
-V NP PP(for){.beneficiary} PP(with){.instrument}
-V NP PP(with){.instrument} PP(at/in/on){.location}
+V {patient}
+V {patient} if S
+V {patient} in {location}
+V {patient} with {instrument}
+V {patient} for {beneficiary} with {instrument}
+V {patient} with {instrument} at/in/on {location}
 
 clear/clean/remove/empty
-V NP
-V NP PP(by) S_ING
-V NP PP(from){.source}
-V NP PP(in){.location}
-V NP PP(for){.beneficiary}
-V NP PP(about){.topic} PP(from){.source}
-V NP PP(by){.instrument} PP(from){.source}
+V {patient}
+V {patient} by S_ING
+V {patient} from {source}
+V {patient} in {location}
+V {patient} for {beneficiary}
+V {patient} about {topic} from {source}
+V {patient} by {instrument} from {source}
 
 store/save/dump/retain/cache/stash/serialize/deserialize/persist
-V NP
-V NP if S
-V NP PP(from){.source}
-V NP PP(into/to){.goal}
-V NP PP(for){.beneficiary}
-V NP PP(around/in){.location}
-V NP PP(for){.beneficiary} PP(into/to){.goal}
+V {patient}
+V {patient} if S
+V {patient} from {source}
+V {patient} into/to {goal}
+V {patient} for {beneficiary}
+V {patient} around/in {location}
+V {patient} for {beneficiary} into/to {goal}
 
 provide/give/supply
-V NP
-V NP that S
-V NP PP(to/as){.goal}
-V NP PP(about){.theme}
-V NP PP(from){.source}
-V PP(for){.beneficiary}
-V NP PP(for){.beneficiary}
+V {patient}
+V {patient} that S
+V {patient} to/as {goal}
+V {patient} about {theme}
+V {patient} from {source}
+V for {beneficiary}
+V {patient} for {beneficiary}
 
 move/scroll/offset/advance
-V NP
-V PP(to){.goal}
-V NP PP(by) S_ING
-V NP PP(from){.source}
-V PP(up/down){.patient}
-V NP PP(to/down){.goal}
-V NP PP(by){.instrument}
-V NP PP(over){.duration}
-V NP PP(in/within){.location}
-V NP PP(to){.goal} PP(by) S_ING
-V NP PP(from){.source} PP(to/down){.goal}
+V {patient}
+V to {goal}
+V {patient} by S_ING
+V {patient} from {source}
+V up/down {patient}
+V {patient} to/down {goal}
+V {patient} by {instrument}
+V {patient} over {duration}
+V {patient} in/within {location}
+V {patient} to {goal} by S_ING
+V {patient} from {source} to/down {goal}
 
 remove/exclude/reduce/delete/pop/uninstall/detach/decrement/revoke/dequeue/abandon/discard/peek
-V NP
-V NP if S
-V PP(at){.location}
-V PP(from){.source}
-V NP PP(as/to){.goal}
-V NP PP(from){.source}
-V NP PP(with){.instrument}
-V NP PP(for){.beneficiary}
-V NP PP(at/in/on){.location}
-V NP PP(from){.source} PP(at){.location}
-V NP PP(with){.instrument} PP(from){.source}
-V NP PP(for){.beneficiary} PP(at){.location}
-V NP PP(from){.source} PP(for){.beneficiary}
-V NP PP(at/in/on){.location} PP(from){.source}
+V {patient}
+V {patient} if S
+V at {location}
+V from {source}
+V {patient} as/to {goal}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} at/in/on {location}
+V {patient} from {source} at {location}
+V {patient} with {instrument} from {source}
+V {patient} for {beneficiary} at {location}
+V {patient} from {source} for {beneficiary}
+V {patient} at/in/on {location} from {source}
 
 finish/complete/finalize/complement
-V NP
+V {patient}
 V S_ING
-V NP PP(by) S_ING
-V NP PP(in/at/on){.location}
+V {patient} by S_ING
+V {patient} in/at/on {location}
 
 convert/change/transfer/map/turn/transform/reconvert/move/adapt/translate/force/cast/return/parse
-V NP
-V PP(to){.goal}
-V NP{.goal} PP(from){.source}
-V NP PP(by){.instrument}
-V NP PP(in/at){.location}
-V NP{.source} PP(to/as/into){.goal}
-V NP{.source} PP(to/as/into){.goal} PP(by) S_ING
-V NP PP(as/into/to){.goal} PP(from){.source}
-V NP{.source} PP(to/as/into){.goal} PP(by/with){.instrument}
-V NP{.source} PP(to/as/into){.goal} PP(in/at){.location}
-V NP{.source} PP(to/as/into){.goal} PP(for){.beneficiary}
-V NP PP(from){.source} PP(to/as/into){.goal} PP(in/at){.location}
+V {patient}
+V to {goal}
+V {goal} from {source}
+V {patient} by {instrument}
+V {patient} in/at {location}
+V {source} to/as/into {goal}
+V {source} to/as/into {goal} by S_ING
+V {patient} as/into/to {goal} from {source}
+V {source} to/as/into {goal} by/with {instrument}
+V {source} to/as/into {goal} in/at {location}
+V {source} to/as/into {goal} for {beneficiary}
+V {patient} from {source} to/as/into {goal} in/at {location}
 
 wait/await/sleep
-V NP
-V PP(for){.patient}
+V {patient}
+V for {patient}
 
 match
-V PP(against){.co-patient}
-V NP PP(against/with){.co-patient}
-V NP PP(at/in){.location} PP(against/with){.co-patient}
+V against {co-patient}
+V {patient} against/with {co-patient}
+V {patient} at/in {location} against/with {co-patient}
 
 read/load/reload
-V NP
-V PP(in){.theme}
-V PP(into){.goal}
-V PP(from){.source}
-V NP PP(from){.source}
-V NP PP(to/into/as){.goal}
-V NP PP(with){.instrument}
-V NP PP(for){.beneficiary}
-V PP(in){.theme} PP(from){.source}
-V PP(from){.source} PP(into){.goal}
-V NP PP(in/on/at/out of){.location}
-V NP PP(from){.source} PP(for) S_ING
-V NP PP(from){.source} PP(at){.location}
-V NP PP(from){.source} PP(for){.beneficiary}
-V NP PP(for){.beneficiary} PP(with){.instrument}
+V {patient}
+V in {theme}
+V into {goal}
+V from {source}
+V {patient} from {source}
+V {patient} to/into/as {goal}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V in {theme} from {source}
+V from {source} into {goal}
+V {patient} in/on/at/out of {location}
+V {patient} from {source} for S_ING
+V {patient} from {source} at {location}
+V {patient} from {source} for {beneficiary}
+V {patient} for {beneficiary} with {instrument}
 
 request/ask/give/allow
-V NP
+V {patient}
 V S_INF
-V NP if S
-V NP S_INF
+V {patient} if S
+V {patient} S_INF
 V that/whether/if S
-V NP PP(from){.source}
-V NP PP(for){.beneficiary}
-V PP(for){.beneficiary} S_INF
-V NP PP(at){.location} PP(from){.source}
+V {patient} from {source}
+V {patient} for {beneficiary}
+V for {beneficiary} S_INF
+V {patient} at {location} from {source}
 
 relayout/layout/lay out
-V NP
+V {patient}
 
 display/show/present/bring
-V NP
-V NP PP(to/as){.goal}
-V NP PP(from){.source}
-V NP PP(with){.co-theme}
-V NP PP(for){.beneficiary}
-V NP PP(at/on/in){.location}
+V {patient}
+V {source} to/as {goal}
+V {patient} from {source}
+V {patient} with {co-theme}
+V {patient} for {beneficiary}
+V {patient} at/on/in {location}
 
 hide/collapse
-V NP
-V NP PP(in/from){.location}
+V {patient}
+V {patient} in/from {location}
 
 restore/recover/resume
-V NP
+V {patient}
 V S_ING
-V NP PP(by) S_ING
-V NP PP(from){.source}
+V {patient} by S_ING
+V {patient} from {source}
 
 import
-V NP
+V {patient}
 
 synchronize 
-V NP
+V {patient}
 
 commit/submit
-V NP
-V NP PP(to){.theme}
-V NP PP(for){.co-patient}
+V {patient}
+V {patient} to {theme}
+V {patient} for {co-patient}
 
 sort
-V NP
-V NP PP(into){.product}
+V {patient}
+V {patient} into {product}
 
 pin
-V NP PP(at/on){.location}
+V {patient} at/on {location}
 
 allocate/reallocate
-V NP
-V NP PP(for){.beneficiary}
-V NP PP(with){.theme} PP(for){.beneficiary}
+V {patient}
+V {patient} for {beneficiary}
+V {patient} with {theme} for {beneficiary}
 
 call/invoke/tell/indicate/occur/perform/prompt/notify
-V NP
-V PP(by){.agent}
-V PP(after) S
+V {patient}
+V by {agent}
+V after S
 V when S
-V PP(from){.source} when S
+V from {source} when S
 
 play
-V NP
-V NP PP(in/at){.location}
-V NP PP(with){.instrument} PP(in/at){.location}
+V {patient}
+V {patient} in/at {location}
+V {patient} with {instrument} in/at {location}
 
 inflate/extend
-V NP
-V NP PP(from){.source}
+V {patient}
+V {patient} from {source}
 
 tune
-V PP(to){.theme}
-V PP(to){.theme} PP(for){.co-patient}
+V to {theme}
+V to {theme} for {co-patient}
 
 enter
-V NP PP(on){.co-patient}
-V NP PP(between){.attribute}
+V {patient} on {co-patient}
+V {patient} between {attribute}
 
 toggle
-V NP
+V {patient}
 
 export
-V NP
-V NP PP(to){.location}
+V {patient}
+V {patient} to {location}
 
 flash
-V NP
+V {patient}
 
 intersect
-V NP{.patient} PP(with){.patient}
+V {patient} with {patient}
 
 validate/authenticate/revalidate
-V NP
-V NP PP(with){.instrument}
+V {patient}
+V {patient} with {instrument}
 
 publish
-V NP
-V NP PP(to){.goal}
+V {patient}
+V {patient} to {goal}
 
 redo
-V NP
-V NP PP(from){.source}
+V {patient}
+V {patient} from {source}
 
 destroy/tear
-V NP
-V PP(down){.patient}
-V NP PP(in/at){.location}
-V PP(down){.patient} PP(for){.beneficiary}
+V {patient}
+V down {patient}
+V {patient} in/at {location}
+V down {patient} for {beneficiary}
 
 flip/rotate/permute/swap/transpose/reverse/shuffle
-V NP
-V PP(to){.goal}
-V NP PP(by){.instrument}
-V NP PP(at/in){.location}
+V {patient}
+V to {goal}
+V {patient} by {instrument}
+V {patient} at/in {location}
 
 compile
-V NP PP(for){.beneficiary}
-V NP PP(in/into){.product} PP(with){.material}
+V {patient} for {beneficiary}
+V {patient} in/into {product} with {material}
 
 collect/recycle/sample
-V NP
+V {patient}
 
 mark
-V NP
-V NP PP(as) S_ING
-V PP(in){.patient}
-V NP PP(as){.goal}
-V NP PP(in){.location}
+V {patient}
+V {patient} as S_ING
+V in {patient}
+V {patient} as {goal}
+V {patient} in {location}
 
 confirm/ensure/determine
-V NP
+V {patient}
 V that S
-V NP PP(for){.beneficiary}
+V {patient} for {beneficiary}
 
 touch/press
-V NP
+V {patient}
 
 delay/defer/postpone
-V NP
-V NP PP(on){.theme}
+V {patient}
+V {patient} on {theme}
 
 split/break/divide
-V NP
-V NP PP(on){.co-patient}
-V NP{.material} PP(into/to){.product}
-V NP PP(on){.co-patient} PP(at){.location}
+V {patient}
+V {patient} on {co-patient}
+V {material} into/to {product}
+V {patient} on {co-patient} at {location}
 
 negate
-V NP
+V {patient}
 
 normalize
-V NP
+V {patient}
 
 span
-V NP
+V {patient}
 
 cut
-V NP PP(into){.goal}
+V {patient} into {goal}
 
 redirect/jump/skip/fling/go/navigate
-V NP
-V NP PP(to){.goal}
-V NP PP(from){.source}
-V NP PP(in){.location}
-V PP(over/to){.patient}
-V PP(from){.source} PP(to){.goal}
-V NP PP(to){.goal} PP(in){.location}
-V PP(over){.patient} PP(from){.source}
+V {patient}
+V {patient} to {goal}
+V {patient} from {source}
+V {patient} in {location}
+V over/to {patient}
+V from {source} to {goal}
+V {patient} to {goal} in {location}
+V over {patient} from {source}
 
 list/enumerate
-V NP
-V NP PP(on/in){.location}
+V {patient}
+V {patient} on/in {location}
 
 delegate
-V NP PP(to){.co-theme}
+V {patient} to {co-theme}
 
 filter
-V NP
-V NP PP(by){.instrument}
+V {patient}
+V {patient} by {instrument}
 
 simulate
 V S_ING
 
 speak
-V NP
+V {patient}
 
 lock
-V NP
+V {patient}
 
 respond
-V PP(to){.goal}
-V PP(to){.co-theme} PP(for){.goal}
+V to {goal}
+V to {co-theme} for {goal}
 
 package/encode/marshal/synthesize/wrap/compress/pack/compact/encrypt/escape
-V NP
+V {patient}
 V S_INF
-V NP{.material}
-V NP{.material} PP(in){.location}
-V NP{.material} PP(into/as/to){.product}
-V NP{.material} PP(in){.location} PP(into/as/to){.product}
-V NP{.patient} PP(from){.material} PP(to/as/into){.product}
+V {material}
+V {material} in {location}
+V {material} into/as/to {product}
+V {material} in {location} into/as/to {product}
+V {patient} from {material} to/as/into {product}
